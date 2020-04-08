@@ -1,0 +1,374 @@
+*{margin:0; padding : 0; box-sizing: border-box;}
+
+#header{
+    width:100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(0,168,255,0.3), rgba(0,168,255,0.3)) , url("bgi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    clip-path: polygon(0% 0%,100% 0%,100% 75%,50% 100%,0% 75%);
+    position: relative;
+}   
+ .h{
+      
+     padding-top: 3rem;
+ }
+
+
+.para{
+      font-size: 0.9rem;
+      line-height: 1.6;
+      font-weight: 400;
+}
+
+.header-buttons a{
+text-decoration: none;
+font-size: 1rem;
+font-weight: 400;
+border: 2px solid #fff;
+margin:0 5px;
+padding: 12px 24px;
+outline: none;
+border-radius: 10%;
+}
+
+.header-div p{
+    padding-bottom: 1rem;
+}
+
+.header-buttons a:hover{
+    color:blueviolet;
+    background-color: whitesmoke;
+    box-shadow: 0,0,20px,0 rgba(0,0,0,0.3);
+}
+ 
+@media(max-width:800px){
+    .items{
+        text-align: center;
+    }
+}
+
+ /***********************************************nav bar and header end *******************************************-*/
+
+ /*****************************************************Features div start******************************************************/
+
+ .featuresv{
+     background-image: url("bgi2.jpg");
+     background-size: cover;
+     background-attachment: fixed;
+    background-position: center center;
+     width: 100%;
+     height: auto;
+     margin: 10px 0;
+ }
+ .spacing{
+     padding-top: 150px;
+     padding-bottom: 150px;
+ }
+ .divcenter{
+     text-align: center;
+     padding-top: 100px;
+     padding-left: 60px;
+     padding-right: 60px;
+     padding-bottom: 70px;
+    border: medium none;
+    transition: 0.3s;
+    background: #fff;
+    border-radius: 3px;
+
+ }
+
+ @media(max-width:800px){
+     .divs{
+         padding-top: 40px;
+     }
+ }
+
+ .divcenter:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+     transform: translateY(-20px);
+ }
+
+/***************************************************features section end******************************************************/
+
+/***********************************************my skills section start *******************************************************/
+.skills{
+    background-image: url("bgi5.jpg");
+         background-size:cover ;
+         background-attachment: fixed;
+    background-position: center center;
+    padding-bottom: 150px;
+      background-color: #f7f7f9;
+     margin-bottom: 10px;
+     padding-top: 130px;
+ }
+
+ @media(max-width:800px){ 
+ .space1{
+      padding-left: 100px;
+      padding-bottom: 50px;
+  }
+  .space2{
+      text-align: center;
+  }
+}
+
+.skillsheader{
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.color p{
+    color:violet;
+}
+.skillsheader p{
+ color: red;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@media(max-width:800px){
+    .skillsheader p{
+        font-size: 0.9rem;
+        line-height: 1.6;
+        font-weight: 400;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+    }
+}
+
+i{
+    color: violet;
+}
+
+.icon{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/***********************************************my skills section End *******************************************************/
+
+/***********************************************Work section start *******************************************************/
+  
+  #work{
+     
+      padding:50px!important;
+  }
+
+  @media(max-width:800px){
+      .space3{
+          padding:8px;
+      }
+  }
+
+/***********************************************Work section end *******************************************************/
+
+/***********************************************price  section start *******************************************************/
+    #price{
+         background-image: url("bgi3.jpg");
+         background-size:cover ;
+         background-attachment: fixed;
+    background-position: center center;
+        padding: 80px 0 ;
+    }
+
+.liststyle{
+    list-style: none;
+    padding: 5px 0;
+    text-decoration: none;
+}
+
+.money{
+    font-size: 40px;
+    line-height: 1.6;
+    color: #606060;
+}
+
+.card-body{
+    padding: 30px 0px!important;
+}
+
+.card-body li{
+    margin: 30px 0px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #666666;
+}
+
+.card-footer{
+    background: white!important;
+    padding: 20px 0px !important;
+}
+
+.card-header{
+    background: white!important;
+    padding: 30px 0px !important;
+}
+
+.card:hover {
+    transform: translateY(-20px);
+    
+}
+.ca{
+    transform: translateY(-20px);
+}
+ 
+
+@media(max-width:1200px){
+    .padding{
+        padding:8%;
+    }
+    .card:hover{
+        transform: translateY(20px);
+        
+    }
+}
+
+.card-footer a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+    border: 2px solid #fff;
+    margin:0 5px;
+    padding: 12px 24px;
+    outline: none;
+    border-radius: 10%;
+    }
+    
+     .card:hover .card-footer a:hover {
+        color:blueviolet;
+        background-color: whitesmoke;
+        box-shadow: 0,0,20px,0 rgba(0,0,0,0.3);
+    }
+
+    .card:hover .card-footer a{
+        color:blueviolet;
+        background-color: whitesmoke;
+        box-shadow: 0,0,20px,0 rgba(0,0,0,0.3);
+        border: 2px solid blueviolet;
+    }
+
+
+    .card:hover .money , .card:hover .card-header {
+         
+        color:blueviolet;
+    }
+    
+
+ /***********************************************price  section end *******************************************************/
+
+ /***********************************************words  section starts *******************************************************/
+#words{
+    background-image: url("bgi4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 50px 0;
+}
+
+.carousel-item{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.space4{
+padding-top: 150px;
+}
+
+
+.space6{
+padding-top: 20px;
+line-height: 1.6;
+font-weight: 400;
+font-size: 1rem;
+}
+
+.name{
+    padding-top: 10px;
+line-height: 1.6;
+font-weight: 700;
+font-size: 1.6rem;
+}
+/***********************************************words  section end *******************************************************/
+
+/***********************************************CONTACT US section STARTS*******************************************************/
+#Contact{
+     padding-top: 100px;
+    width:100%;
+    height: 100vh;
+}
+
+.space5{
+    padding: 25px 0;
+}
+
+.butn{
+color: #000;
+    text-decoration: none!important;
+    font-size: 1rem;
+    font-weight: 400;
+    border: 2px solid #fff;
+    margin:0 5px;
+    padding: 12px 24px;
+    outline: none;
+    border-radius: 10%;
+     
+
+
+}
+
+.no1{
+    color: #fff;
+    text-decoration: none;
+
+}
+
+  .butn:hover .no1 {
+    color: black;
+    text-decoration: none;
+}
+
+
+.butn:hover{
+
+    color:blueviolet;
+    background-color: whitesmoke;
+    box-shadow: 0,0,20px,0 rgba(0,0,0,0.3);
+    text-decoration: none!important;
+
+}
+
+
+/***********************************************CONTACT US section Ends*******************************************************/
+
+/***********************************************footer section STARTS*******************************************************/
+
+#footer{
+    padding: 50px 0;
+    background-image: url("bgi5.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+
+.no{
+    text-decoration: none!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***********************************************footer section ENDS *******************************************************/
